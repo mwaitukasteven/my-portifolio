@@ -187,5 +187,16 @@
     <footer class="text-center py-6 bg-gray-800">
         <p>© 2025 Mr Mwaituka. All rights reserved.</p>
     </footer>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const menuBtn = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        menuBtn.addEventListener("click", function () {
+            mobileMenu.classList.toggle("hidden");
+        });
+    });
+</script>
+
 </body>
 </html>
